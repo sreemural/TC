@@ -2,4 +2,4 @@
 FROM tomcat:latest
 
 # Copy the war file to the webapps directory
-COPY /var/lib/jenkins/workspace/tomcat-deploy/target/ /usr/local/tomcat/webapps/
+COPY /var/lib/jenkins/workspace/tomcat-deploy/target/java-example.war /usr/local/tomcat/webapps/
